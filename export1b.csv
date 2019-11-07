@@ -1,0 +1,75 @@
+"","Character","Show","Seasons.Count","LGBT..Count","LGBT..p.season.Count","female.LGBT..Count","female.LGBT..p.season.Count","G.Count","B.Count","L.Count","A.Count","P.Count","Q.Count","NS.Count","T.Count","NB.Count","Female.Identifying","Out","Sexual.Orientation","Gender.Identity","Character.Role","Abused","Predatory","All.Episodes.have.aired.","Alive.by.end.","Count.of.characters.in.show","Race","Hispanic.or.Latino.origin.","Career.Education.Level"
+"2","Jeri Hogarth","Jessica Jones","2","7","3.5","4","2","2","0","4","0","0","0","1","0","0","Y","Y","Lesbian","cis female","major","N","N","N","Y","40","white","N","college"
+"3","Wendy Ross-Hogarth","Jessica Jones","2","7","3.5","4","2","2","0","4","0","0","0","1","0","0","Y","Y","Lesbian","cis female","recurring","Y","N","N","N","40","white","N","college"
+"4","Pam","Jessica Jones","2","7","3.5","4","2","2","0","4","0","0","0","1","0","0","Y","Y","Lesbian","cis female","recurring","N","Y","N","Y","40","white","N","hsd/GER/Certificate"
+"5","Sissy Garcia","Jessica Jones","2","7","3.5","4","2","2","0","4","0","0","0","1","0","0","Y","Y","Lesbian","cis female","minor","N","Y","N","Y","40","n/a","N",NA
+"6","Zack","Jessica Jones","2","7","3.5","4","2","2","0","4","0","0","0","1","0","0","N","Y","NS","cis male","minor","N","N","N","Y","40","african american","N","hsd/GER/Certificate"
+"7","Justin Beaudoin","Jessica Jones","2","7","3.5","4","2","2","0","4","0","0","0","1","0","0","N","Y","Gay","cis male","minor","Y","Y","N","Y","40","white","N",NA
+"8","Frank Levin","Jessica Jones","2","7","3.5","4","2","2","0","4","0","0","0","1","0","0","N","Y","Gay","cis male","minor","Y","N","N","N","40","asian american","N",NA
+"9","Ian Gallagher","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","N","Y","Gay","cis male","major","Y","N","N","Y","62","white","N","hsd/GER/Certificate"
+"10","Debbie Gallagher","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","N","NS","cis female","major","Y","Y","N","Y","62","white","N","hsd/GER/Certificate"
+"11","Svetlana Yevgenivna","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","NS","cis female","major","Y","N","N","Y","62","white","N",NA
+"12","Veronica Fisher","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","NS","cis female","major","N","N","N","Y","62","african american","N","hsd/GER/Certificate"
+"13","Monica Gallagher","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","Bisexual","cis female","major","Y","Y","N","N","62","white","N",NA
+"14","Mickey Milkovich","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","N","Y","Gay","cis male","major","Y","N","N","Y","62","white","N",NA
+"15","Amanda","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","N","NS","cis female","recurring","N","Y","N","Y","62","asian american","N","college"
+"16","Angela","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","Lesbian","cis female","minor","N","N","N","Y","62","asian american","N",NA
+"17","Caleb","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","N","Y","Bisexual","cis male","minor","N","N","N","Y","62","african american","N","trade school"
+"18","Jasmine Hollander","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","N","Bisexual","cis female","recurring","N","N","N","Y","62","white","N",NA
+"19","Kash","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","N","N","NS","cis male","minor","N","N","N","Y","62","iranian american","N","hsd/GER/Certificate"
+"20","Ned Lishman","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","N","N","Pansexual","cis male","recurring","N","N","N","Y","62","white","N","trade school"
+"21","Nessa Chabon","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","Lesbian","cis female","recurring","N","N","N","Y","62","african american","N",NA
+"22","Roberta","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","Lesbian","cis female","recurring","N","N","N","Y","62","african american","N",NA
+"23","Sean Bennett","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","N","N","Gay","cis male","minor","N","Y","N","Y","62","white","N",NA
+"24","Tami Dameti","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","NS","cis female","recurring","N","N","N","Y","62","white","N",NA
+"25","Terry Milkovich","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","N","N","NS","cis male","recurring","N","Y","N","Y","62","white","N",NA
+"26","Tony Markovich","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","N","Y","Gay","cis male","recurring","N","N","N","Y","62","white","N","trade school"
+"27","Trevor","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","N","Y","Gay","trans male","minor","N","N","N","Y","62","white","N",NA
+"28","Muff Bull Dagger","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","Lesbian","cis female","minor","N","Y","N","Y","62",NA,"N","college"
+"29","Fiona Gallagher","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","N","NS","cis female","major","Y","N","N","Y","62","white","N","hsd/GER/Certificate"
+"30","Lisa","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","Lesbian","cis female","minor","N","N","N","Y","62",NA,"N",NA
+"31","Lisa 2","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","Lesbian","cis female","minor","N","N","N","Y","62",NA,"N",NA
+"32","Mel","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","Lesbian","cis female","minor","N","N","N","Y","62",NA,"N",NA
+"33","Geneva","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","Lesbian","cis female","recurring","N","N","N","Y","62","white","N",NA
+"34","Barb","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","Lesbian","cis female","minor","N","N","N","Y","62","white","N",NA
+"35","Alex","Shameless (US)","9","27","3","18","2","5","3","10","0","1","0","8","1","0","Y","Y","Lesbian","cis female","recurring","N","N","N","Y","62","african american","N","trade school"
+"36","Raymond Holt","Brooklyn 99","6","11","1.8","8","1.3","3","1","6","0","0","0","1","0","0","N","Y","Gay","cis male","major","N","N","N","Y","49","african american","N","trade school"
+"37","Jessica","Brooklyn 99","6","11","1.8","8","1.3","3","1","6","0","0","0","1","0","0","Y","Y","Lesbian","cis female","minor","N","N","N","Y","49","african american","N",NA
+"38","Jocelyn Pryce","Brooklyn 99","6","11","1.8","8","1.3","3","1","6","0","0","0","1","0","0","Y","Y","Lesbian","cis female","recurring","N","N","N","Y","49","white","N","trade school"
+"39","Alicia","Brooklyn 99","6","11","1.8","8","1.3","3","1","6","0","0","0","1","0","0","Y","Y","Lesbian","cis female","minor","N","N","N","Y","49","latinx","Y","nhd"
+"40","Aubrey","Brooklyn 99","6","11","1.8","8","1.3","3","1","6","0","0","0","1","0","0","Y","Y","Lesbian","cis female","minor","N","N","N","Y","49","african american","N","hsd/GER/Certificate"
+"41","Dannika","Brooklyn 99","6","11","1.8","8","1.3","3","1","6","0","0","0","1","0","0","Y","Y","Lesbian","cis female","minor","N","N","N","Y","49","white","N","college"
+"42","Rosa Diaz","Brooklyn 99","6","11","1.8","8","1.3","3","1","6","0","0","0","1","0","0","Y","Y","Bisexual","cis female","major","N","N","N","Y","49","latinx","Y","college"
+"43","Frederick","Brooklyn 99","6","11","1.8","8","1.3","3","1","6","0","0","0","1","0","0","N","Y","Gay","cis male","minor","N","N","N","Y","49","white","N","college"
+"44","Gabrielle","Brooklyn 99","6","11","1.8","8","1.3","3","1","6","0","0","0","1","0","0","Y","Y","Lesbian","cis female","minor","N","N","N","Y","49","white","N",NA
+"45","Kevin Cozner","Brooklyn 99","6","11","1.8","8","1.3","3","1","6","0","0","0","1","0","0","N","Y","Gay","cis male","major","N","N","N","Y","49","white","N","college"
+"46","Tiffany","Brooklyn 99","6","11","1.8","8","1.3","3","1","6","0","0","0","1","0","0","Y","N","NS","cis female","minor","N","N","N","Y","49",NA,"N",NA
+"47","Beth","Crazy Ex-Girlfriend","4","7","1.75","4","1","2","3","1","0","0","0","1","0","0","Y","Y","Lesbian","cis female","recurring","N","N","Y","Y","54","white","N","nhd"
+"48","Darryl","Crazy Ex-Girlfriend","4","7","1.75","4","1","2","3","1","0","0","0","1","0","0","N","Y","Bisexual","cis male","major","N","N","Y","Y","54","white","N","college"
+"49","Josh","Crazy Ex-Girlfriend","4","7","1.75","4","1","2","3","1","0","0","0","1","0","0","N","Y","Gay","cis male","major","N","N","Y","Y","54","white","N","hsd/GER/Certificate"
+"50","Maya","Crazy Ex-Girlfriend","4","7","1.75","4","1","2","3","1","0","0","0","1","0","0","Y","Y","Bisexual","cis female","major","N","N","Y","Y","54","white","N","college"
+"51","Valencia Perez","Crazy Ex-Girlfriend","4","7","1.75","4","1","2","3","1","0","0","0","1","0","0","Y","Y","Bisexual","cis female","major","N","N","Y","Y","54","latinx","Y","nhd"
+"52","Josh's Boyfriend","Crazy Ex-Girlfriend","4","7","1.75","4","1","2","3","1","0","0","0","1","0","0","N","Y","Gay","cis male","minor","N","N","Y","Y","54","white","N",NA
+"53","Maya's Crush","Crazy Ex-Girlfriend","4","7","1.75","4","1","2","3","1","0","0","0","1","0","0","Y","Y","NS","cis female","minor","N","N","Y","Y","54",NA,"N",NA
+"54","Alex Vause","OITNB","6","10","1.6","10","1.6","0","3","6","0","0","0","1","1","0","Y","Y","Lesbian","cis female","major","N","N","Y","Y","120","white","N",NA
+"55","Big Boo","OITNB","6","10","1.6","10","1.6","0","3","6","0","0","0","1","1","0","Y","Y","Lesbian","cis female","major","N","N","Y","Y","120","white","N",NA
+"56","Brook Soso","OITNB","6","10","1.6","10","1.6","0","3","6","0","0","0","1","1","0","Y","Y","Bisexual","cis female","major","N","N","Y","Y","120","asian american","N",NA
+"57","Crazy Eyes","OITNB","6","10","1.6","10","1.6","0","3","6","0","0","0","1","1","0","Y","Y","Lesbian","cis female","major","Y","Y","Y","Y","120","african american","N",NA
+"58","Linda Ferguson","OITNB","6","10","1.6","10","1.6","0","3","6","0","0","0","1","1","0","Y","Y","Bisexual","cis female","recurring","N","N","Y","Y","120","white","N","college"
+"59","Nicky Nichols","OITNB","6","10","1.6","10","1.6","0","3","6","0","0","0","1","1","0","Y","Y","Lesbian","cis female","major","N","N","Y","Y","120","white","N",NA
+"60","Piper Chapman","OITNB","6","10","1.6","10","1.6","0","3","6","0","0","0","1","1","0","Y","Y","Bisexual","cis female","major","N","N","Y","Y","120","white","N",NA
+"61","Poussey Washington","OITNB","6","10","1.6","10","1.6","0","3","6","0","0","0","1","1","0","Y","Y","Lesbian","cis female","major","Y","N","Y","N","120","african american","N",NA
+"62","Sophia Bursett","OITNB","6","10","1.6","10","1.6","0","3","6","0","0","0","1","1","0","Y","Y","NS","trans female","major","Y","N","Y","Y","120","african american","N",NA
+"63","Tricia Miller","OITNB","6","10","1.6","10","1.6","0","3","6","0","0","0","1","1","0","Y","Y","Lesbian","cis female","major","N","N","Y","N","120","white","N",NA
+"64","Coriolanus Burt","Unbreakable Kimmy Schmidt","4","4","1","0","0","4","0","0","0","0","0","0","0","0","N","Y","Gay","cis male","recurring","N","N","N","Y","46","african american","N","hsd/GER/Certificate"
+"65","Titus Andromedon","Unbreakable Kimmy Schmidt","4","4","1","0","0","4","0","0","0","0","0","0","0","0","N","Y","Gay","cis male","major","N","N","N","Y","46","african american","N","hsd/GER/Certificate"
+"66","Mike Politano","Unbreakable Kimmy Schmidt","4","4","1","0","0","4","0","0","0","0","0","0","0","0","N","Y","Gay","cis male","recurring","N","N","N","Y","46","white","N","trade school"
+"67","Ilan","Unbreakable Kimmy Schmidt","4","4","1","0","0","4","0","0","0","0","0","0","0","0","N","Y","Gay","cis male","minor","N","N","N","Y","46",NA,"N",NA
+"68","Ambrose","Chilling Adventures of Sabrina","2","7","3.5","3","1.5","2","0","0","0","1","0","4","0","0","N","Y","Pansexual","cis male","major","N","N","N","Y","28","african american","N",NA
+"69","Luke",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"N","Y","Gay","cis male","recurring","N","N","N","Y","28","white","N",NA
+"70","Theo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"N","Y","Gay","trans male","major","Y","N","N","Y","28","white","N","hsd/GER/Certificate"
+"71","Prudence",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Y","Y","NS","cis female","major","N","N","N","Y","28","african american","N",NA
+"72","Nick",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"N","Y","NS","cis male","major","N","N","N","Y","28","white","N",NA
+"73","Agatha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Y","Y","NS","cis female","recurring","N","N","N","Y","28",NA,"N",NA
+"74","Dorcas",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Y","Y","NS","cis female","recurring","N","N","N","Y","28",NA,"N",NA
+"75","Eleanor Shellstrop","The Good Place","3","1","0.33","1","0.33","0","1","0","0","0","0","0","0","0","Y","N","Bisexual","cis female","major","N","N","N","N","39","white","N",NA

@@ -1,0 +1,81 @@
+---
+title: "MD2"
+author: "Julie Norman"
+date: "11/7/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Libraries
+```{r}
+library(readr)
+library(formattable)
+library(descr)
+```
+
+## Import
+
+```{r}
+df <- read_csv("export1b.csv")
+agdf <- read_csv("export1ag.csv")
+```
+
+## Questions
+
+
+What is the percentage of female LGBTQ+ individuals versus the percentage of male LGBTQ+ individuals?
+
+```{r}
+agdf$perc.fem.LGBTQ <- (agdf$female.LGBT..Count / agdf$LGBT..Count)*100
+
+agdf$perc.mal.LGBTQ <- (100 - agdf$perc.fem.LGBTQ)
+```
+
+```{r}
+agdf %>%
+  select(c(Show, perc.fem.LGBTQ, perc.mal.LGBTQ)) %>%
+  formattable()
+```
+
+The average amount of LGBTQ+ individuals in a show per season?
+
+```{r}
+mean(agdf$LGBT..Count)
+```
+
+
+What are the most represented identity groups in the LGBTQ+ population of the shows?
+
+```{r}
+formattable(table(df$Sexual.Orientation, df$Gender.Identity))
+
+```
+
+
+What are the most represented identity groups in the female identified LGBTQ+ population of the shows?
+What are the least?
+
+```{r}
+table(df$Female.Identifying, df$Sexual.Orientation)
+```
+
+
+
+Are the LGBTQ+ characters often represented as abused and predatory?
+```{r}
+(table(df$Sexual.Orientation, df$Abused))
+
+
+```
+
+
+What is the most common character role for female LGBTQ+ characters?
+
+```{r}
+(table(df$Sexual.Orientation, df$Predatory))
+```
+

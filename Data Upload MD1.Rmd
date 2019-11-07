@@ -1,0 +1,77 @@
+---
+title: "Data Upload MD1"
+author: "Julie Norman"
+date: "10/6/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Libraries
+```{r}
+library(readxl)
+library(broom)
+library(tidyverse)
+library(sjlabelled)
+```
+
+
+## Data Upload
+
+```{r}
+rawdf <- read_excel("LGBT+ Data Set 3.xlsx")
+
+
+rawdf$Character
+
+
+```
+
+### Reformat 
+
+```{r}
+tdf <- as.data.frame(t(rawdf)) # switch rows and columns
+colnames(tdf) <- unlist(tdf[1,]) # select column names from row 1
+tdf <- tdf %>%
+  remove_all_labels() %>%
+  rownames_to_column("Character")
+
+df <- tdf[-c(1), ] # remove redundent row
+
+
+
+df
+
+
+```
+
+
+
+
+## Data Agreggate 
+
+```{r}
+#df[, c(3:15, 26)] <- lapply(select(df, c(3:15, 26)), as.numeric) # factor to numeric 
+
+cols_num <- c("Show", colnames( df[, c(3:15, 26)]))
+
+subdf <- select(df, cols_num)
+
+agdf <- aggregate(subdf[-1], by = list(Show = subdf$Show), FUN = function(x) mean(as.numeric(as.character(x)))) 
+
+agdf
+```
+
+
+### Data Exploration
+
+
+## Export
+
+```{r}
+write.csv(df, file = "export1b.csv")
+write.csv(agdf, file = "export1ag.csv")
+```
+
