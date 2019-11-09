@@ -1,0 +1,126 @@
+---
+title: "MD2"
+author: "Julie Norman"
+date: "11/7/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Libraries
+```{r}
+library(readr)
+#library(formattable)
+library(descr)
+library(dplyr)
+library(formattable)
+library(ggplot2)
+```
+
+## Import
+
+```{r}
+df <- read_csv("export1b.csv")
+agdf <- read_csv("export1ag.csv")
+```
+
+## Questions
+
+
+What is the percentage of female LGBTQ+ individuals versus the percentage of male LGBTQ+ individuals?
+
+```{r}
+agdf$perc.fem.LGBTQ <- (agdf$female.LGBT..Count / agdf$LGBT..Count)*100
+
+agdf$perc.mal.LGBTQ <- (100 - agdf$perc.fem.LGBTQ)
+
+# lgbt Q for entire population
+```
+
+```{r}
+agdf %>%
+  select(c(Show, perc.fem.LGBTQ, perc.mal.LGBTQ)) %>%
+  formattable()
+```
+
+The average amount of LGBTQ+ individuals in a show per season?
+
+```{r}
+mean(agdf$LGBT..Count)
+
+median(agdf$LGBT..Count)
+
+mean(agdf$Count.of.characters.in.show)
+
+```
+
+```{r}
+ggplot(agdf, aes(x = Count.of.characters.in.show, y = LGBT..Count)) +
+  geom_point()
+```
+
+
+What are the most represented identity groups in the LGBTQ+ population of the shows?
+
+```{r}
+formattable(table(df$Sexual.Orientation, df$Gender.Identity))
+```
+
+What are the most represented identity groups in the female identified LGBTQ+ population of the shows?
+What are the least?
+
+```{r}
+table(df$Female.Identifying, df$Sexual.Orientation)
+```
+
+
+```{r}
+ggplot(df, aes(fill = Sexual.Orientation, x = Female.Identifying)) +
+    geom_bar(position = "dodge")
+```
+
+
+
+Are the LGBTQ+ characters often represented as abused and predatory?
+```{r}
+(table(df$Sexual.Orientation, df$Abused))
+```
+
+```{r}
+ggplot(df, aes(fill = Sexual.Orientation, x = Abused)) +
+    geom_bar(position = "dodge")
+
+ggplot(df, aes(x = Abused, y = ..prop.., group = 1)) +
+    geom_bar()
+
+ggplot(df, aes(x = Predatory, y = ..prop.., group = 1)) +
+    geom_bar()
+```
+
+
+What is the most common character role for female LGBTQ+ characters?
+
+```{r}
+pred <- addmargins(table(df$Sexual.Orientation, df$Predatory), 2)
+pred
+
+role <- addmargins(table(df$Sexual.Orientation, df$Character.Role), 2)
+role
+```
+
+```{r}
+ggplot(df, aes(fill = Sexual.Orientation, x = Predatory)) +
+    geom_bar(position = "dodge")
+
+ggplot(df, aes(fill = Sexual.Orientation, x = Character.Role)) +
+    geom_bar(position = "dodge")
+```
+
+```{r}
+ggplot(df, aes(x = Sexual.Orientation)) +
+  geom_bar()
+```
+
